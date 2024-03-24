@@ -98,4 +98,4 @@ def scrap_freelancer_jobs(filter_param):
         return scraped_jobs
     except requests.exceptions.RequestException as e:
         print(f"an error occurred while scrapping indeed freelance jobs : {e}")
-        return []~
+        return []
